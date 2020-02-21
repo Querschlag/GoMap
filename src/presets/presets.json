@@ -11224,6 +11224,27 @@
 			},
 			"name": "Monitoring Station"
 		},
+		"man_made/nesting_site": {
+			"geometry": [
+						 "point",
+						 "area"
+						 ],
+			"fields": [
+					   "support",
+					   "material",
+					   "capacity",
+					   "species"
+					   ],
+			"terms": [
+					  "bird",
+					  "nest",
+					  "box"
+					  ],
+			"tags": {
+				"man_made": "nesting_site"
+			},
+			"name": "Nesting Site"
+		},
 		"man_made/observation": {
 			"icon": "poi-tower",
 			"geometry": [

@@ -1141,6 +1141,35 @@
 			"type": "typeCombo",
 			"label": "Type"
 		},
+		"material": {
+			"key": "material",
+			"type": "combo",
+			"label": "Material",
+			"strings": {
+				"options": {
+					"wood": "Wood",
+					"palm_leaves": "Palm Leaves",
+					"bamboo": "Bamboo",
+					"metal": "Metal",
+					"brass": "Brass",
+					"bronze": "Bronze",
+					"steel": "Steel",
+					"concrete": "Concrete",
+					"reinforced_concrete": "Reinforced Concrete",
+					"stone": "Stone",
+					"granite": "Granite",
+					"sandstone": "Sandstone",
+					"masonry": "Masonry",
+					"brick": "Brick",
+					"adobe": "Adobe",
+					"plastic": "Plastic",
+					"soil": "Soil",
+					"rammed_earth": "Rammed Earth",
+					"glass": "Glass",
+					"andesite": "Andesite"
+				}
+			}
+		},
 		"maxheight": {
 			"key": "maxheight",
 			"type": "combo",
@@ -1811,6 +1840,11 @@
 						"streetlevel imagery"
 						]
 		},
+		"species": {
+			"key": "species",
+			"type": "text",
+			"label": "Species"
+		},
 		"sport_ice": {
 			"key": "sport",
 			"type": "semiCombo",
@@ -1934,7 +1968,29 @@
 		"support": {
 			"key": "support",
 			"type": "combo",
-			"label": "Support"
+			"label": "Support",
+			"strings": {
+				"options": {
+					"pole": "Pole",
+					"power_pole": "Power Pole",
+					"post": "Post",
+					"wall": "Wall",
+					"wall_mounted": "Wall Mounted",
+					"fence": "Fence",
+					"scaffold": "Scaffold",
+					"ceiling": "Ceiling",
+					"ground": "Ground",
+					"pedestal": "Pedestal",
+					"billboard": "Billboard",
+					"tree": "Tree",
+					"tree_trunk": "Tree Trunk",
+					"tree_branch": "Tree Branch",
+					"wire": "Wire",
+					"roof": "Roof",
+					"rock": "Rock",
+					"column": "Column"
+				}
+			}
 		},
 		"surface": {
 			"key": "surface",
