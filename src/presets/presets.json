@@ -1797,6 +1797,15 @@
 						 "vertex",
 						 "area"
 						 ],
+            "fields": [
+                "shelter",
+                "raised",
+                "ladder",
+                "height",
+                "direction",
+                "lockable",
+                "tree_stand"
+            ],
 			"terms": [
 					  "game",
 					  "gun",

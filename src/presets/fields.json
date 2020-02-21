@@ -1005,6 +1005,11 @@
 			"type": "textarea",
 			"label": "Label"
 		},
+        "ladder": {
+            "key": "ladder",
+            "type": "check",
+            "label": "Ladder"
+        },
 		"lamp_type": {
 			"key": "lamp_type",
 			"type": "combo",
@@ -1110,6 +1115,11 @@
 			"key": "location",
 			"type": "combo",
 			"label": "Location"
+		},
+		"lockable": {
+			"key": "lockable",
+			"type": "check",
+			"label": "Lockable"
 		},
 		"man_made": {
 			"key": "man_made",
@@ -1535,6 +1545,11 @@
 			"label": "Power Rating",
 			"snake_case": false
 		},
+        "raised": {
+            "key": "raised",
+            "type": "check",
+            "label": "Raised"
+        },
 		"recycling_accepts": {
 			"key": "recycling:",
 			"type": "multiCombo",
@@ -2105,6 +2120,11 @@
 			"key": "trees",
 			"type": "semiCombo",
 			"label": "Trees"
+		},
+		"tree_stand": {
+			"key": "tree_stand",
+			"type": "check",
+			"label": "Tree Stand"
 		},
 		"tunnel": {
 			"key": "tunnel",
